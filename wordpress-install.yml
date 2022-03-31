@@ -1,0 +1,8 @@
+---
+- name: Install wordpress
+  hosts: wordpress
+  vars:
+    some_var: var
+
+  tasks:
+    - name: Download latest wp distr
