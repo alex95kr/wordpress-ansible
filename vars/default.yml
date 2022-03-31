@@ -1,0 +1,14 @@
+---
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "mysql_root"
+mysql_db: "wordpress-db"
+mysql_user: "vagrant"
+mysql_password: "vagrant-wordpress"
+
+#HTTP Settings
+http_host: "wordpress.test"
+http_conf: "wordpress.test.conf"
+http_port: "80"
